@@ -13,7 +13,7 @@ The 10 violin pieces are:
 1. Bach: Sonatas and Partitas for Solo Violin, Partita No. 2 in D minor, BWV 1004, Allemanda (bach1)
 2. Bach: Sonatas and Partitas for Solo Violin, Partita No. 3 in E major, BWV 1006, Preludio (bach2)
 3. Mozart: Violin Concerto No. 3 in G major, K. 216, mvt. 1, mm. 38-94 (mozart1)
-4. Mozart: Violin Concerto No. 3 in G major, K. 216, mvt. 3 (mozart2_1 mm.41-234, mozart2_2 mm. 252-393)
+4. Mozart: Violin Concerto No. 3 in G major, K. 216, mvt. 3 (mozart2_1 mm. 41-234, mozart2_2 mm. 252-393)
 5. Beethoven: Violin Sonata No. 5 in F major, Op. 24, mvt. 1, mm. 1-86 (beeth1)
 6. Beethoven: Violin Sonata No. 6 in A major, Op. 30-1, mvt. 3, Theme & Variation 2 (beeth2_1 & beeth2_2)
 7. Elgar: Salut d'Amour, Op. 12 (elgar)
