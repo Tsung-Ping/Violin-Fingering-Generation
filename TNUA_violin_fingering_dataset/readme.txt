@@ -1,4 +1,4 @@
-number of pieces = 140
+number of files = 140
 total number of note events = 108795, max = ('vio10_beeth1', 1804), min = ('vio3_wind', 194)
 pitch range = 55 to 100
 beat_type_dict = {'': 0, '1th': 1, '2th': 2, '4th': 3,  '8th': 4,  '16th': 5, '32th': 6}
