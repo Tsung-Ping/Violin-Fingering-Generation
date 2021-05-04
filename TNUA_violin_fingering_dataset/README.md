@@ -1,6 +1,8 @@
 number of files = 140<br/>
 total number of note events = 108795, max = ('vio10_beeth1', 1804), min = ('vio3_wind', 194)<br/>
 
+For each file, each row indicates a note event, and each column denotes as follows:
+
 **pitch**
 midi numbers of note events, pitch range = 55 to 100
 
