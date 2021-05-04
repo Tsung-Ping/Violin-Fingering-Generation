@@ -17,7 +17,7 @@ The 10 violin pieces are:
 5. Beethoven: Violin Sonata No. 5 in F major, Op. 24, mvt. 1, mm. 1-86 (beeth1)
 6. Beethoven: Violin Sonata No. 6 in A major, Op. 30-1, mvt. 3, Theme & Variation 2 (beeth2_1 & beeth2_2)
 7. Elgar: Salut d'Amour, Op. 12 (elgar)
-8. Mendelssohn: Violin Concerto in E minor, Op. 64, mvt. 1, mm. 1-131 (mend1 mm. 2-141, mend2 mm. 141-313, mend3 mm. 313-463)
+8. Mendelssohn: Violin Concerto in E minor, Op. 64, mvt. 1 (mend1 mm. 2-141, mend2 mm. 141-313, mend3 mm. 313-463)
 9. Yu-hsien Teng: Bāng Chhun-hong (Taiwanese folk music) / 鄧雨賢: 望春風 (wind)
 10. Yu-hsien Teng: Ú-iā-hue (Taiwanese folk music) / 鄧雨賢: 雨夜花 (flower)
 
