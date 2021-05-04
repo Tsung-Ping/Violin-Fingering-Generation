@@ -7,7 +7,7 @@ The dataset contains 10 violin pieces and the corresponding note-by-note annotat
 
 The filenames are formatted as [violinist_id]_[composer:piece_id:section_id].csv
 
-For example, the filename *vio1_beeth2_1.csv* indicates that the fingerings are annotated by violinist 1 on Beethoven’s piece 2, section 1.
+For example, the filename *vio1_beeth2_1.csv* indicates that the fingerings are annotated by violinist 1 on Beethoven's Violin Sonata No. 6, mvt. 3, Theme.
 
 The 10 violin pieces are:
 1. Bach: Sonatas and Partitas for Solo Violin, Partita No. 2 in D minor, BWV 1004, Allemanda
