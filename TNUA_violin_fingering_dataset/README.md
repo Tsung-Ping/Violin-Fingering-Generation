@@ -4,13 +4,13 @@ For each file, each row indicates a note event, and each column denotes as follo
 midi numbers of note events, pitch range = 55 to 100
 
 **start**
-onset times measured in beat (negative number indicates beats of an incomplete measure)
+onset times measured in beats (negative number indicates beats of an incomplete measure)
 
 **duration**
 durations of note events
 
 **beat type**
-duration types of music21, {0, 1, 2, 3, 4, 5, 6} (N/A, whole, half, quarter, 8th, 16th, 32th)
+duration types, {0, 1, 2, 3, 4, 5, 6} (N/A, whole, half, quarter, 8th, 16th, 32th)
 
 **string/position/finger**
 strings/positions/fingers used when playing the note events<br/>
