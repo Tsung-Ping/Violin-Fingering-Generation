@@ -2,7 +2,7 @@
 
 We build an intelligent system which generates fingerings for violin music in an interactive way. Instead of fully-automatic generation of violin fingerings, the system provides multiple generation paths and yield adaptable fingering arrangements for users. A new violin dataset with fingering annotations is also proposed. For more details, please refer to ["Positioning Left-hand Movement in Violin Performance: A System and User Study of Fingering Pattern Generation" (IUI 2021)](https://dl.acm.org/doi/abs/10.1145/3397481.3450661?sid=SCITRUS).
 
-**TNUA Violin Fingering Dataset**
+##TNUA Violin Fingering Dataset##
 The dataset contains 10 violin pieces and the corresponding note-by-note annotations by 10 professional musicians. The annotations specify the detailed performance attributes of each note, including pitch, metric onset, duration, beat type, string designation, hand position, and finger choice.
 
 The filenames are formatted as *[violinist_id]_[piece_id].csv*. For example, the filename *vio1_beeth2_1.csv* indicates that the fingerings are annotated by violinist 1 on Beethoven's Violin Sonata No. 6, mvt. 3, Theme.
@@ -18,4 +18,15 @@ The 10 violin pieces are:
 8. Mendelssohn: Violin Concerto in E minor, Op. 64, mvt. 1 (mend1 mm. 2-141, mend2 mm. 141-313, mend3 mm. 313-463)
 9. Yu-hsien Teng: Bāng Chhun-hong (Taiwanese folk music) / 鄧雨賢: 望春風 (wind)
 10. Yu-hsien Teng: Ú-iā-hue (Taiwanese folk music) / 鄧雨賢: 雨夜花 (flower)
+
+## Violin Fingering Generation Model
+Bi-directional Long Short-Term Memory Network (BLSTM) with a softmax layer is employed to predict the probabilities of string and position for playing each violin note, and three modules are used to make the output desisions. For intput of the model, each note is represented by its pitch, onset, duration, and beat type.
+
+## Requirements
+ * python >= 3.6.4
+ * tensorflow >= 1.8.0
+ * numpy >= 1.16.2
+ * sklearn >= 0.19.1
+ * pretty_midi >= 0.2.9
+
 
