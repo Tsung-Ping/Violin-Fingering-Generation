@@ -5,7 +5,7 @@ We built an intelligent system to generate fingerings for violin music in an int
 ## TNUA Violin Fingering Dataset ##
 The dataset contains 10 violin pieces and the corresponding note-by-note annotations by 10 professional musicians. The annotations specify the detailed performance attributes of each note, including pitch, metrical onset, duration, beat type, string designation, hand position, and finger choice.
 
-The filenames are formatted as *[violinist_id]_[piece_id].csv*. For example, the filename *vio1_beeth2_1.csv* indicates that the fingerings are annotated by violinist 1 on Beethoven's Violin Sonata No. 6, mvt. 3, Theme.
+The filenames are formatted as *[violinist_id]_[piece_id].csv*. For example, the filename *vio1_bach1.csv* indicates that the fingerings are annotated by violinist 1 on Bach's Partita No. 2.
 
 The 10 violin pieces are:
 1. Bach: Sonatas and Partitas for Solo Violin, Partita No. 2 in D minor, BWV 1004, Allemanda (bach1)
