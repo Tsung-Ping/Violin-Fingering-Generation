@@ -29,4 +29,8 @@ Bi-directional Long Short-Term Memory Network (BLSTM) with a softmax layer is us
  * sklearn >= 0.19.1
  * pretty_midi >= 0.2.9
 
+## Graphical User Interface
+We have developed a simple GUI that allows users to interact with the violin fingering generation model. The GUI is designed to recommend violin fingerings on sheet music (in the MusicXML format) with three pre-defined generation modes and export the annotated scores as PDF or MusicXML files. To realize a customized recommendation, the GUI can also take user-specified fingerings as optional inputs. 
+
+The GUI is proposed along with the paper: ["An Interactive Automatic Violin Fingering Recommendation Interface" (IEEE AIVR 2021)](...).
 
