@@ -22,7 +22,7 @@ The 10 violin pieces are:
 ## Violin Fingering Generation Model
 Bi-directional Long Short-Term Memory Network (BLSTM) with a softmax layer is used to predict the probabilities of string and position for playing each violin note, and three modules are employed to make the output desisions of string designation, hand position, as well as finger choice. For intput of the model, each note is represented by its pitch, onset, duration, and beat type.
 
-## Requirements
+## Requirements (Model)
  * python >= 3.6.4
  * tensorflow >= 1.8.0
  * numpy >= 1.16.2
@@ -39,5 +39,4 @@ The GUI is proposed along with the paper: ["An Interactive Automatic Violin Fing
  * music21 >= 5.7.2
  * pretty_midi >= 0.2.9
  * MuseScore 3.0
- * tensorflow >= 1.8.0
  * google_drive_downloader >= 0.4
