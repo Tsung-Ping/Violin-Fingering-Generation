@@ -34,3 +34,10 @@ We have developed a simple GUI that allows users to interact with the violin fin
 
 The GUI is proposed along with the paper: ["An Interactive Automatic Violin Fingering Recommendation Interface" (IEEE AIVR 2021)](...).
 
+## Requirements (GUI)
+ * tkinter >= 8.6
+ * music21 >= 5.7.2
+ * pretty_midi >= 0.2.9
+ * MuseScore 3.0
+ * tensorflow >= 1.8.0
+ * google_drive_downloader >= 0.4
