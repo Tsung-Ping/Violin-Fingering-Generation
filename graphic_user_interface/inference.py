@@ -3,7 +3,7 @@ from violin_fingering_model import violin_fingering_model
 import numpy as np
 import pretty_midi
 import os
-from tests import static
+# from tests import static
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 def read_csv(csv_file_path):
@@ -35,7 +35,8 @@ if __name__ == "__main__":
     # beat_types = [3 for _ in range(8)] # {'': 0, '1th': 1, '2th': 2, '4th': 3, '8th': 4, '16th': 5, '32th': 6}
 
     # load input from CSV
-    input = read_csv(static.get_file("temp_notes.csv"))
+    # input = read_csv(static.get_file("temp_notes.csv"))
+    input = read_csv("temp_notes.csv")
 
     # inference, valid mode = {'basic', 'lowest', 'nearest'}
     model = violin_fingering_model()
